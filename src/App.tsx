@@ -6,7 +6,10 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import Login from "./pages/login/Login";
+import "./styles/global.scss";
+import Orders from "./pages/About/Orders";
 
+// added global style sheet from styles folder manually here
 const Layout = () => {
   return (
     <div className="main">
@@ -43,6 +46,14 @@ function App() {
         {
           path: "products",
           element: <Products />,
+        },
+        {
+          path: "orders",
+          element: <Orders />,
+        },
+        {
+          path: "profile",
+          element: <Orders />,
         },
       ],
     },

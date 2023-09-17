@@ -1,11 +1,13 @@
 @import "../../styles/variables.scss";
 @import "../../styles/responsive.scss";
 
- 
- .Products{
+
+.chartPie{
+    color:white;
 
     @include sm{
-        width: 80%;
+        display: flex;
+         margin-right: 20px;
     }
-     
- }
+    
+    }
